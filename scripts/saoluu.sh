@@ -20,3 +20,4 @@ else
     echo "Sao luu that bai"
 fi
 ls -lh "$BACKUP_DIR"
+echo "Tong so file sao luu: $(ls -1 "$BACKUP_DIR"/backup_*.tar.gz 2>/dev/null | wc -l)"
